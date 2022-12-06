@@ -60,6 +60,7 @@ body {
 .leftsection-text {
     font-size: 35px;
     font-weight: initial;
+    padding-right: 10rem;
 }
 .rightsection {
     width: 50%;
@@ -69,7 +70,8 @@ body {
 }
 
 button {
-    padding: 5px;
+    color: rgb(255, 255, 255);
+    padding: 20px;
     width: 300px;
     font-weight: bold;
     font-size: 40px;
@@ -79,7 +81,132 @@ button {
 }
 
 .product-img {
-    width: 500px;
+    width: 800px;
     object-fit: cover;
     margin-right: 100px;
+}
+
+/* ==== Section 2 style ================ */
+.section2 {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+}
+
+.fourpiece-container {
+    display: flex;
+    flex-direction: row;
+    flex:1;
+}
+
+.tagline {
+    font-weight: bold;
+    font-size: 80px;
+    align-self: center;
+}
+
+.piece {
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    width: 100%; max-width: 400px;
+    margin: 5rem;
+}
+
+.placeholder-img {
+    display: flex;
+    width: 100%; max-width: 400px;
+    border: 10px solid blue;
+    border-radius: 50px;
+}
+
+.annotation-text {
+    display: flex;
+    font-size: 40px;
+    color: black;
+    text-align: center;
+}
+
+/* ==== Section 3 ===================== */
+.quote-container {
+    background-color: #e5e7eb;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    padding: 200px;
+}
+
+.quote-text {
+    display: flex;
+    font-size:60px;
+    font-style:italic;
+
+}
+
+.author-text {
+    display: flex;
+    font-size: 50px;
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+/* === Section 4 =============== */
+.call2action-container {
+    background-color: #3b82f6;
+    display: flex;
+    flex: 1;
+    margin: 200px;
+    align-items: center;
+    padding: 100px;
+    border-radius: 30px;
+}
+
+.call2action-leftsecton {
+    display: flex;
+    flex: 1;
+    margin: 0; padding: 0;
+    justify-content: space-around;
+}
+
+.call2action-text1 {
+    color: white;
+    font-size:50px;
+    font-weight:bold;
+    padding-left: 100px;
+    margin: 0;
+}
+
+
+.call2action-text2 {
+    padding-left: 100px; 
+    color: white;
+    font-size: 35px;
+    margin: 0;
+}
+
+.call2action-rightsection {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.lowerbutton {
+    margin: auto;
+}
+
+/*  === Footer Section ===== */
+.footer-container {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    height: 100px;
+}
+.footertext {
+    font-size: 30px;
+    color: white;
 }
